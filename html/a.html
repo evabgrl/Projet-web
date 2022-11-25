@@ -7,48 +7,151 @@
     <link rel="stylesheet" href="Immobilier.css">
     <title>OMNES Immobilier</title>
 
-</head>
+
 <body>
     <header>
         <h1>Omnes Immobilier</h1>
     </header>
-    <nav class="menu-bouton">
-        <a href = "Accueil.html">Accueil</a>
- 
+    <nav class ="barre">
+        <nav class="menu-bouton">
+            <a href = "Accueil.html">Accueil</a>
+     
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Toutparcourir.html">Tout parcourir</a>
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Recherche.html">Recherche</a>
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Rendez-vous.html">Rendez-vous</a>
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Votrecompte.html">Votre compte</a>
+        </nav>
     </nav>
-    <nav class ="menu-bouton">
-        <a href = "Toutparcourir.html">Tout parcourir</a>
-    </nav>
-    <nav class ="menu-bouton">
-        <a href = "Recherche.html">Recherche</a>
-    </nav>
-    <nav class ="menu-bouton">
-        <a href = "Rendez-vous.html">Rendez-vous</a>
-    </nav>
-    <nav class ="menu-bouton">
-        <a href = "Votrecompte.html">Votre compte</a>
-    </nav>
+    
 
     <nav class ="Introduction">
+        <div style="float:right"><img src="file:///C:/Users/Moi/Downloads/immo.jpg" width = 400px ></div>
         <p class ="titre"><b>Omnes Education vous souhaite la bienvenue !</b></p>
-        <p>Sur ce site vous trouverez le bien de vos rêves, nous en sommes certains.</p>
-        <p>Que vous cherchiez une maison citadine, de vacances...</p>
+        <p id = "intro">Créé en 2022, Omnes Immobilier est une agence qui se veut simple d'utilisation pour vous faciliter lors de vos recherches, 
+            car nous savons à quel point c'est important de se sentir à l'aise pour prendre la décision de visiter un bien (et plus si affinité).
+            Sur ce site vous trouverez le bien de vos rêves, nous en sommes certains. 
+            Que vous cherchiez une maison citadine, familiale, pour étudiant 
+            ou encore une maison de vacances, nous aurons de quoi vous satisfaire dans notre agence.</p>
+        <p>Nous travaillons avec des outils technologiques vous permettant de faire des recherches avancées en
+            fonction de vos besoins. Cela crée un réel lien entre vous et nous de part ce réseaux et les
+            technologies qui nous entoure. Ainsi, nous serons ravis d'avoir votre retour d'expérience sur vos recherches
+            d'habitation avec nous.
+        </p>
+        <p classe = "titre"><b>Bonne visite !</p>
     </nav>
     <nav class ="Evenement">
         <p class = "titre"><b>L'événement de la semaine</b></p>
         <p>Nous vous proposons le bien le plus intéressant de la semaine.</p>
         <a href ="">Maison familiale</a>
-        <br><img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="300px"></br>
+        <br><img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="500px"></br>
         <p>Cocon familiale d'une superficie de 190m² pour un total de 6 pièces. En plein coeur de Saint-Cyr-au-Mont-D'Or, laissez vous séduire par sa piscine et sa terasse aménagée.</p>
     </nav>
 
     <nav class="Bulletin">
         <p class = "titre"><b>Le bulletin de l'immobilier</b></p>
         <p></p>
+
+        
+        <section class="carousel">
+            <ul class="carousel-items">
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Studio étudiant</h2>
+                        <img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="250px"/>
+                        <div class="card-content">
+                            <p>18m² de pièce à vivre, ce studio équipé d'une kitchenette et d'une salle de bain avec 
+                                toilettes sera parfait pour tout étudiant. A 5 minutes à pieds d'OMNES et à 
+                                10 minutes des Quais, vous pourrez aussi bien suivre vos études que prendre l'air dans un joli cadre.</p>
+                            <a href="#" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Maison familiale</h2>
+                        <img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="250px" />
+                        <div class="card-content">
+                            <p>Grande maison avec 4 chambres et jardin. Pour une surface habitable totale de 210m², de quoi ravir 
+                                toute une famille. Craquer pour son jardin avec potager et cabanon, dans lequel vous pourrez ranger 
+                                votre barbecue, en vue de soirée familiale en été dans le jardin.</p>
+                            <a href="#" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Villa avec piscine</h2>
+                        <img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="250px"/>
+                        <div class="card-content">
+                            <p>Sûrement la maison de vos rêves, celle qui vous fera succomber. Sa piscine extérieure
+                                ainsi que son spa intérieur vous permettront de profiter au maximum des bénéfices offerts par cette villa. 
+                                Vous pourrez également constater une magnifique vue sur le coucher de soleil depuis le jardin.</p>
+                            <a href="#" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Appartement en ville</h2>
+                        <img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="250px"/>
+                        <div class="card-content">
+                            <p>Cherchez-vous un appartement tout équipé au centre de Lyon ? Nous avons ce qu'il vous faut. 
+                                Cet appartement de 3 pièces est totalement fonctionnel et vous permettra de loger rapidement à proximité de tout.
+                                Son point fort c'est d'être juste en face d'un arrêt de tramway.</p>
+                            <a href="#" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Chalet montagnard</h2>
+                        <img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="250px"/>
+                        <div class="card-content">
+                            <p>Mewl for food at 4am chase mice. Scratch leg; meow for can opener to feed me 
+                                purr when being pet nya nya nyan catasstrophe, fooled again thinking the dog 
+                                likes me cough hairball on conveniently placed pants.</p>
+                            <a href="#" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li><li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Wow! Another awesome article</h2>
+                        <img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="250px" />
+                        <div class="card-content">
+                            <p>Mewl for food at 4am chase mice. Scratch leg; meow for can opener to feed me purr when being pet nya nya nyan catasstrophe, fooled again thinking the dog likes me cough hairball on conveniently placed pants.</p>
+                            <a href="#" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li><li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Wow! Another awesome article</h2>
+                        <img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="250px" />
+                        <div class="card-content">
+                            <p>Mewl for food at 4am chase mice. Scratch leg; meow for can opener to feed me purr when being pet nya nya nyan catasstrophe, fooled again thinking the dog likes me cough hairball on conveniently placed pants.</p>
+                            <a href="#" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
     </nav>
 
     <footer>
-        <p>Contact</p>
+        <div style="float:right"><img src="file:///C:/Users/Moi/Downloads/PLAN.png" width = 275px ></div>
+        <p><b>Nous contacter</b></p>
+        
+        <p>25 rue de l'université</p>
+        <p>69007 Lyon</p>
+        <p>+336 52 49 91 36</p>
+        <p>contact@omnesimmobilier.com</p>
+        
     </footer>
 
 </body>
