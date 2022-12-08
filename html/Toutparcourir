@@ -42,7 +42,7 @@
                 <li class="carousel-item">
                     <div class="card">
                         <h2 class="card-title">Maison familiale</h2>
-                        <img src="./images/Maison2.jpg" width="300px"/>
+                        <img src="./images/Maison2.jpg" width="250" height="200"/>
                         <div class="card-content">
                             <p>Grande maison avec 4 chambres et jardin. Pour une surface habitable totale de 210m², de quoi ravir 
                                 toute une famille. Craquer pour son jardin avec potager et cabanon, dans lequel vous pourrez ranger 
@@ -54,62 +54,72 @@
                 <li class="carousel-item">
                     <div class="card">
                         <h2 class="card-title">Villa avec piscine</h2>
-                        <img src="./images/Maison3.jpg" width="300px" />
+                        <img src="./images/Maison3.jpg" width="250" height="200" />
                         <div class="card-content">
                             <p>Sûrement la maison de vos rêves, celle qui vous fera succomber. Sa piscine extérieure
                                 ainsi que son spa intérieur vous permettront de profiter au maximum des bénéfices offerts par cette villa. 
                                 Vous pourrez également constater une magnifique vue sur le coucher de soleil depuis le jardin.</p>
-                            <a href="Maison2.html" class="button">En savoir plus</a>
+                            <a href="Maison3.html" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li>
                 <li class="carousel-item">
                     <div class="card">
                         <h2 class="card-title">Maison citadine</h2>
-                        <img src="./images/Maison7.jpg" width="300px"/>
+                        <img src="./images/Maison7.jpg" width="250" height="200"/>
                         <div class="card-content">
                             <p>Cette maison aux goûts du jour permet de loger une famille de 3 personnes. Avec son jardin,
                                 elle offre la possibilité de se sentir à la campagne tout en étant en ville. Une maison 
                                 polyvalente pour vous séduire !</p>
-                            <a href="Maison4.html" class="button">En savoir plus</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="carousel-item">
-                    <div class="card">
-                        <h2 class="card-title">Maison citadine</h2>
-                        <img src="./images/Maisonc4.jpg" width="300px"/>
-                        <div class="card-content">
-                            <p></p>
-                            <a href="Maison4.html" class="button">En savoir plus</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="carousel-item">
-                    <div class="card">
-                        <h2 class="card-title">Chalet montagnard</h2>
-                        <img src="./images/Maisonc5.jpg" width="300px"/>
-                        <div class="card-content">
-                            <p></p>
-                            <a href="Maison5.html" class="button">En savoir plus</a>
-                        </div>
-                    </div>
-                </li><li class="carousel-item">
-                    <div class="card">
-                        <h2 class="card-title">Cabane dans un arbre</h2>
-                        <img src="./images/Maisonc6.jpg" width="300px" />
-                        <div class="card-content">
-                            <p></p>
-                            <a href="Maison6.html" class="button">En savoir plus</a>
-                        </div>
-                    </div>
-                </li><li class="carousel-item">
-                    <div class="card">
-                        <h2 class="card-title">Maison citadine</h2>
-                        <img src="./images/Maisonc7.jpg" width="300px" />
-                        <div class="card-content">
-                            <p></p>
                             <a href="Maison7.html" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Maison avec rooftop</h2>
+                        <img src="./images/Maisonc4.jpg" width="250" height="200"/>
+                        <div class="card-content">
+                            <p>Grande maison avec un super rooftop, de quoi avoir de la verdure même en pleine ville!
+                                Vous pourrez profiter de l'extérieur et du ciel étoilé de votre terrasse.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Maison campagnarde</h2>
+                        <img src="./images/Maisonc5.jpg" width="250" height="200"/>
+                        <div class="card-content">
+                            <p>Maison en pleine campagne, pour profitez du calme et de la nature tout en étant en famille.
+                                A deux minutes d'un étang et à seulement trois minutes de la forêt, de quoi se retrouver au plus proche de la nature.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li><li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Maison boisée</h2>
+                        <img src="./images/Maisonc6.jpg" width="250" height="200" />
+                        <div class="card-content">
+                            <p>Vous appréciez le bois ? Les chalets ? Mais vous préférez vivre en maison citadine ?
+                                Cette maison est faite pour vous ! Belle de l'extérieur mais aussi de l'intérieur,
+                                appréciez sa différence.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li><li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Villa avec piscine</h2>
+                        <img src="./images/Maisonc7.jpg" width="250" height="200" />
+                        <div class="card-content">
+                            <p>La première villa avec piscine ne vous a pas convaincu ? Laissez-vous séduire par celle-ci !
+                                Différente de la première par son esthetisme, elle a les mêmes avantages et permet donc de satisfaire
+                                d'autres personnes par son goût.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li>
@@ -127,7 +137,7 @@
                 <li class="carousel-item">
                     <div class="card">
                         <h2 class="card-title">Studio étudiant</h2>
-                        <img src="images/Maison1.jpg" width="300" height="" alt=""/>
+                        <img src="images/Maison1.jpg" width="250" height="200"/>
                         <div class="card-content">
                             <p>18m² de pièce à vivre, ce studio équipé d'une kitchenette et d'une salle de bain avec 
                                 toilettes sera parfait pour tout étudiant. A 5 minutes à pieds d'OMNES et à 
@@ -139,60 +149,59 @@
                 <li class="carousel-item">
                     <div class="card">
                         <h2 class="card-title">Appartement citadin</h2>
-                        <img src="./images/Maison4.jpg" width="300px" />
+                        <img src="./images/Maison4.jpg" width="250" height="200" />
                         <div class="card-content">
                             <p>Cherchez-vous un appartement tout équipé au centre de Lyon ? Nous avons ce qu'il vous faut. 
                                 Cet appartement de 3 pièces est totalement fonctionnel et vous permettra de loger rapidement à proximité de tout.
                                 Son point fort c'est d'être juste en face d'un arrêt de tramway.</p>
-                            <a href="Maison2.html" class="button">En savoir plus</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="carousel-item">
-                    <div class="card">
-                        <h2 class="card-title">Villa avec piscine</h2>
-                        <img src="./images/Appartc3.jpg" width="300px"/>
-                        <div class="card-content">
-                            <p></p>
-                            <a href="Maison3.html" class="button">En savoir plus</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="carousel-item">
-                    <div class="card">
-                        <h2 class="card-title">Appartement en ville</h2>
-                        <img src="./images/Appartc4.jpg" width="300px"/>
-                        <div class="card-content">
-                            <p></p>
                             <a href="Maison4.html" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li>
                 <li class="carousel-item">
                     <div class="card">
-                        <h2 class="card-title">Chalet montagnard</h2>
-                        <img src="./images/Appartc5.jpg" width="300px"/>
+                        <h2 class="card-title">Appartement en ville</h2>
+                        <img src="./images/Appartc4.jpg" width="250" height="200"/>
                         <div class="card-content">
-                            <p></p>
-                            <a href="Maison5.html" class="button">En savoir plus</a>
+                            <p>Petit lieu de vie dans lequel vous vous sentirez comme dans un cocon !
+                                En plein centre-ville, vous aurez toujours des activités pour vous occuper.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Appartiment dans la capitale</h2>
+                        <img src="./images/Appartc5.jpg" width="250" height="200"/>
+                        <div class="card-content">
+                            <p>La vie parisienne vous fait rêver ? Un appartement au quatrième étage dans la capitale aussi ?
+                                Cet appartement est fait pour vous ! Avec petite vue sur la tour Eiffel pour vous charmer.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li><li class="carousel-item">
                     <div class="card">
-                        <h2 class="card-title">Cabane dans un arbre</h2>
-                        <img src="./images/Appartc6.jpg" width="300px" />
+                        <h2 class="card-title">Appartement lumineux</h2>
+                        <img src="./images/Appartc6.jpg" width="250" height="200" />
                         <div class="card-content">
-                            <p></p>
-                            <a href="Maison6.html" class="button">En savoir plus</a>
+                            <p>Appartement avec une grande pièce à vivre dans laquelle vous pourrez passer du temps chaque jour
+                                sans vous lassez grâce à la grande ouverture sur l'extérieur qui illuminera votre vie.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li><li class="carousel-item">
                     <div class="card">
-                        <h2 class="card-title">Maison citadine</h2>
-                        <img src="./images/Appartc7.jpg" width="300px" />
+                        <h2 class="card-title">Appartement avec terrasse</h2>
+                        <img src="./images/Appartc7.jpg" width="250" height="200" />
                         <div class="card-content">
-                            <p></p>
-                            <a href="Maison7.html" class="button">En savoir plus</a>
+                            <p>Etre dans un appartement vous opresse mais vous n'avez pas besoin d'une maison actuellement ?
+                                Optez pour l'appartement avec terrasse qui vous permettra de profitez du beau temps tout 
+                                en ayant un petit lieu de vie.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li>
@@ -210,7 +219,7 @@
                 <li class="carousel-item">
                     <div class="card">
                         <h2 class="card-title">Chalet montagnard</h2>
-                        <img src="./images/Maison5.jpg" width="300px"/>
+                        <img src="./images/Maison5.jpg" width="250" height="200"/>
                         <div class="card-content">
                             <p>Vous rechercher un chalet montagnard pour être au plus près des pistes à chaque saison de ski ?
                                 Ce chalet est fait pour vous ! Chaussez les skis de chez vous et vous pourrez descendre 
@@ -222,7 +231,7 @@
                 <li class="carousel-item">
                     <div class="card">
                         <h2 class="card-title">Cabane dans un arbre</h2>
-                        <img src="./images/Maison6.jpg" width="300px" />
+                        <img src="./images/Maison6.jpg" width="250" height="200" />
                         <div class="card-content">
                             <p>Êtes-vous plus grimpeur que skieur ? Dans ce cas, vous pourriez préférer cette cabane atypique. 
                                 Perché à 5m du sol, dîtes bonjour aux oiseaux le matin tout en dégustant votre café ! 
@@ -233,49 +242,60 @@
                 </li>
                 <li class="carousel-item">
                     <div class="card">
-                        <h2 class="card-title">Villa avec piscine</h2>
-                        <img src="./images/Insolitec3.jpg" width="300px"/>
+                        <h2 class="card-title">Maison sous terre</h2>
+                        <img src="./images/Insolitec3.jpg" width="250" height="200"/>
                         <div class="card-content">
-                            <p></p>
-                            <a href="Maison3.html" class="button">En savoir plus</a>
+                            <p>Cette maison isolite vous permettra de profiter de la fraîcheur du sol en plein été mais aussi 
+                                de la tranquillité d'être isolé tout au long de l'année.</p>
+                            <a href="" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li>
                 <li class="carousel-item">
                     <div class="card">
-                        <h2 class="card-title">Appartement en ville</h2>
-                        <img src="./images/Insolitec4.jpg" width="300px"/>
+                        <h2 class="card-title">Cabane montagnarde</h2>
+                        <img src="./images/Insolitec4.jpg" width="250" height="200"/>
                         <div class="card-content">
-                            <p></p>
-                            <a href="Maison4.html" class="button">En savoir plus</a>
+                            <p>Cette cabane est le parfait compromis entre un chalet montagnard et une cabane au plus proche de 
+                                la nature dans la forêt.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li>
                 <li class="carousel-item">
                     <div class="card">
-                        <h2 class="card-title">Chalet montagnard</h2>
-                        <img src="./images/Insolitec5.jpg" width="300px"/>
+                        <h2 class="card-title">Bullesque</h2>
+                        <img src="./images/Insolitec5.jpg" width="250" height="200"/>
                         <div class="card-content">
-                            <p></p>
-                            <a href="Maison5.html" class="button">En savoir plus</a>
+                            <p> Des bubulles ! Des bubulles ! Si cette réplique résonne en vous, vous apprécierez sûrement cette maison pour le moins
+                                surprenante. Tout l'intérieur est pensé de manière à accueillir une famille de quatre personnes.
+                                Dans les bulles vous trouverez donc trois chambres, une salle de bain, une grande pièce à vivre au centre, ainsi qu'une cuisine.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li><li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Cabane de sorcier</h2>
+                        <img src="./images/Insolitec6.jpg" width="250" height="200" />
+                        <div class="card-content">
+                            <p>Vous pensez que vous êtes Hagrid dans Harry Potter et vous préférez vivre dans une cabane plutôt 
+                                qu'à Poudlard ? Vous avez totalement raison ! Et voici votre petite cabane de sorcier ! 
+                                Une antre pour développer vos pouvoirs et parler aux animaux.
+                            </p>
+                            <a href="" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li><li class="carousel-item">
                     <div class="card">
                         <h2 class="card-title">Cabane dans un arbre</h2>
-                        <img src="./images/Insolitec6.jpg" width="300px" />
+                        <img src="./images/Insolitec7.jpg" width="250" height="200" />
                         <div class="card-content">
-                            <p></p>
-                            <a href="Maison6.html" class="button">En savoir plus</a>
-                        </div>
-                    </div>
-                </li><li class="carousel-item">
-                    <div class="card">
-                        <h2 class="card-title">Maison citadine</h2>
-                        <img src="./images/Insolitec7.jpg" width="300px" />
-                        <div class="card-content">
-                            <p></p>
-                            <a href="Maison7.html" class="button">En savoir plus</a>
+                            <p>La première cabane ne vous a pas séduit ? Dans ce cas, vous pourriez préférer cette cabane avec piscine. 
+                                Perché à 5m du sol, dîtes bonjour aux oiseaux le matin tout en dégustant votre café ! 
+                                Attention : il ne faut pas avoir le vertige !</p>
+                            <a href="" class="button">En savoir plus</a>
                         </div>
                     </div>
                 </li>
