@@ -127,3 +127,23 @@ footer{
     text-align: right;
     color : blue
 }
+
+
+form {
+    width: 400px;
+    margin: auto;
+    margin-top: 25px;
+}
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+}
+.search {
+    width: 75%;
+}
+.submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+}
