@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Immobilier.css">
+    <title>OMNES Immobilier</title>
+
+
+<body>
+    <header>
+        <div style="float:left"><a href="Immobilier.html"><img src="C:\Users\Moi\Downloads\logo web.png" width="150px"></a></div>
+        <h1>Omnes Immobilier</h1>
+        
+    </header>
+    
+    <nav class ="barre">
+        <nav class="menu-bouton">
+            <a href = "Immobilier.html">Accueil</a>
+     
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Toutparcourir.html">Tout parcourir</a>
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Recherche.html">Recherche</a>
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Rendez-vous.html">Rendez-vous</a>
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Votrecompte.html">Votre compte</a>
+        </nav>
+    </nav>
+    
+    <form>
+        <input type="text" name=text" class="search" placeholder="Recherchez ici!">
+        <input type="submit" name="submit" class="submit" value="Search">
+    </form>
+    
+    <nav class ="Introduction">
+        <div style="float:right"><img src="file:///C:/Users/Moi/Downloads/immo.jpg" width = 400px ></div>
+        <p class ="titre"><b>Omnes Education vous souhaite la bienvenue !</b></p>
+        <p id = "intro">Créé en 2022, Omnes Immobilier est une agence qui se veut simple d'utilisation pour vous faciliter lors de vos recherches, 
+            car nous savons à quel point c'est important de se sentir à l'aise pour prendre la décision de visiter un bien (et plus si affinité).
+            Sur ce site vous trouverez le bien de vos rêves, nous en sommes certains. 
+            Que vous cherchiez une maison citadine, familiale, pour étudiant 
+            ou encore une maison de vacances, nous aurons de quoi vous satisfaire dans notre agence.</p>
+        <p>Nous travaillons avec des outils technologiques vous permettant de faire des recherches avancées en
+            fonction de vos besoins. Cela crée un réel lien entre vous et nous de part ce réseaux et les
+            technologies qui nous entoure. Ainsi, nous serons ravis d'avoir votre retour d'expérience sur vos recherches
+            d'habitation avec nous.
+        </p>
+        <p classe = "titre"><b>Bonne visite !</p>
+    </nav>
+    <nav class ="Evenement">
+        <p class = "titre"><b>L'événement de la semaine</b></p>
+        <p>Nous vous proposons le bien le plus intéressant de la semaine.</p>
+        <a href ="Maisonfamiliale.html">Maison familiale</a>
+        <br><img src="file:///C:/Users/Moi/Downloads/maisonfam1.webp" width="500px"></br>
+        <p>Cocon familiale d'une superficie de 190m² pour un total de 6 pièces. En plein coeur de Saint-Cyr-au-Mont-D'Or, laissez vous séduire par sa piscine et sa terrasse aménagée.</p>
+    </nav>
+
+    <nav class="Bulletin">
+        <p class = "titre"><b>Le bulletin de l'immobilier</b></p>
+        <p></p>
+
+        
+        <section class="carousel">
+            <ul class="carousel-items">
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Studio étudiant</h2>
+                        <img src="./images/Maison1.jpg" width="300px"/>
+                        <div class="card-content">
+                            <p>18m² de pièce à vivre, ce studio équipé d'une kitchenette et d'une salle de bain avec 
+                                toilettes sera parfait pour tout étudiant. A 5 minutes à pieds d'OMNES et à 
+                                10 minutes des Quais, vous pourrez aussi bien suivre vos études que prendre l'air dans un joli cadre.</p>
+                            <a href="Maison1.html" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Maison familiale</h2>
+                        <img src="./images/Maison2.jpg" width="300px" />
+                        <div class="card-content">
+                            <p>Grande maison avec 4 chambres et jardin. Pour une surface habitable totale de 210m², de quoi ravir 
+                                toute une famille. Craquer pour son jardin avec potager et cabanon, dans lequel vous pourrez ranger 
+                                votre barbecue, en vue de soirée familiale en été dans le jardin.</p>
+                            <a href="Maison2.html" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Villa avec piscine</h2>
+                        <img src="./images/Maison3.jpg" width="300px"/>
+                        <div class="card-content">
+                            <p>Sûrement la maison de vos rêves, celle qui vous fera succomber. Sa piscine extérieure
+                                ainsi que son spa intérieur vous permettront de profiter au maximum des bénéfices offerts par cette villa. 
+                                Vous pourrez également constater une magnifique vue sur le coucher de soleil depuis le jardin.</p>
+                            <a href="Maison3.html" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Appartement en ville</h2>
+                        <img src="./images/Maison4.jpg" width="300px"/>
+                        <div class="card-content">
+                            <p>Cherchez-vous un appartement tout équipé au centre de Lyon ? Nous avons ce qu'il vous faut. 
+                                Cet appartement de 3 pièces est totalement fonctionnel et vous permettra de loger rapidement à proximité de tout.
+                                Son point fort c'est d'être juste en face d'un arrêt de tramway.</p>
+                            <a href="Maison4.html" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Chalet montagnard</h2>
+                        <img src="./images/Maison5.jpg" width="300px"/>
+                        <div class="card-content">
+                            <p>Vous rechercher un chalet montagnard pour être au plus près des pistes à chaque saison de ski ?
+                                Ce chalet est fait pour vous ! Chaussez les skis de chez vous et vous pourrez descendre 
+                                jusque la station sans problème ! Réconfortant et chaleureux, vous pourrez également y manger de la raclette.</p>
+                            <a href="Maison5.html" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li><li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Cabane dans un arbre</h2>
+                        <img src="./images/Maison6.jpg" width="300px" />
+                        <div class="card-content">
+                            <p>Êtes-vous plus grimpeur que skieur ? Dans ce cas, vous pourriez préférer cette cabane atypique. 
+                                Perché à 5m du sol, dîtes bonjour aux oiseaux le matin tout en dégustant votre café ! 
+                                Attention : il ne faut pas avoir le vertige !</p>
+                            <a href="Maison6.html" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li><li class="carousel-item">
+                    <div class="card">
+                        <h2 class="card-title">Maison citadine</h2>
+                        <img src="./images/Maison7.jpg" width="300px" />
+                        <div class="card-content">
+                            <p>Cette maison aux goûts du jour permet de loger une famille de 3 personnes. Avec son jardin,
+                                elle offre la possibilité de se sentir à la campagne tout en étant en ville. Une maison 
+                                polyvalente pour vous séduire !</p>
+                            <a href="Maison7.html" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+    </nav>
+
+    <footer>
+        <div style="float:right"><img src="file:///C:/Users/Moi/Downloads/PLAN.png" width = 275px ></div>
+        <p class = titre-footer><b>Nous contacter</b></p>
+        
+        <p>25 rue de l'université</p>
+        <p>69007 Lyon</p>
+        <p>+336 52 49 91 36</p>
+        <p>contact@omnesimmobilier.com</p>
+        
+    </footer>
+
+</body>
