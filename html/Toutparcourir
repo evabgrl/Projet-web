@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <div style="float:left"><a href="Immobilier.html"><img src="C:\Users\Moi\Downloads\logo web.png" width="150px"></a></div>
+        <div style="float:left"><a href="Immobilier.html"><img src="images/logo web.png" width="150px"></a></div>
         <h1>Omnes Immobilier</h1>
         
     </header>
