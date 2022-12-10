@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div style="float:left"><a href="Immobilier.html"><img src="C:\Users\Moi\Downloads\logo web.png" width="150px"></a></div>
+        <div style="float:left"><a href="Immobilier.html"><img src="images/logo web.png" width="150px"></a></div>
         <h1>Omnes Immobilier</h1>
         
     </header>
@@ -35,12 +35,12 @@
     </nav>
     
     <form>
-        <input type="text" name=text" class="search" placeholder="Recherchez ici!">
+        <input type="text" name="text" class="search" placeholder="Recherchez ici!">
         <input type="submit" name="submit" class="submit" value="Search">
     </form>
     
     <nav class ="Introduction">
-        <div style="float:right"><img src="file:///C:/Users/Moi/Downloads/immo.jpg" width = 400px ></div>
+        <div style="float:right"><img src="images/immo.jpg" width = 400px ></div>
         <p class ="titre"><b>Omnes Education vous souhaite la bienvenue !</b></p>
         <p id = "intro">Créé en 2022, Omnes Immobilier est une agence qui se veut simple d'utilisation pour vous faciliter lors de vos recherches, 
             car nous savons à quel point c'est important de se sentir à l'aise pour prendre la décision de visiter un bien (et plus si affinité).
