@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Immobilier.css">
+    <title>OMNES Immobilier</title>
+
+
+<body>
+    <header>
+        <h1>Omnes Immobilier</h1>
+        <a href="Immobilier.html"><img src="C:\Users\Moi\Downloads\logo web.png" width="100px"></a>
+    </header>
+    <nav class ="barre">
+        <nav class="menu-bouton">
+            <a href = "Accueil.html">Accueil</a>
+     
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Toutparcourir.html">Tout parcourir</a>
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Recherche.html">Recherche</a>
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Rendez-vous.html">Rendez-vous</a>
+        </nav>
+        <nav class ="menu-bouton">
+            <a href = "Votrecompte.html">Votre compte</a>
+        </nav>
+    </nav>
+
+    <p class ="titre-maison">Cabane dans un arbre</p>
+    <div class="slider-container">
+        <div class="menu">
+            <label for="slide-dot-1"></label>
+            <label for="slide-dot-2"></label>
+            <label for="slide-dot-3"></label>
+        </div>
+
+        <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+        <img class="slide-img" src="./images/Maison6.jpg">
+
+        <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
+        <img class="slide-img" src="./images/Maison6_2.jpg">
+
+        <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
+        <img class="slide-img" src="./images/Maison6_3.jpg">
+
+    </div>
+    <p class = "droite">Surface : 30m²</p>
+    <p class = "droite">Prix : 120000€</p>
+    <p classe = "droite">Adresse : Au coeur de la forêt du Vercors</p>
+    <p>Chambre dans les arbres munie d'une kitchenette et avec électricité pour profiter du chant des oiseaux dès le réveil. Vous trouverez
+        des sanitaires à une centaine de mètres de la cabane, ce sont des sanitaires communs aux quatre cabanes de ce bois (toutes éloignées de 500m).
+        Vous pourrez profiter du calme et de la nature tout en étant autonome. Nos cabanes sont tout de même à 2km de la ville la plus proche,
+        accessible en voiture, vous ne serez pas non plus isolés du monde.
+    </p>
+
+    <p class = "titre"><b>Nos agents immobiliers</b></p>
+
+    <section class="carousel">
+        <ul class="carousel-items">
+            <li class="carousel-item">
+                <div class="card">
+                    <a href="#demo">Martin Goria</a>
+                        <div id="demo" class="modal">
+                            <div class="modal_content">
+                                <p class = "titre">Martin Goria</p>
+                                
+                                <p>Ses disponibilités sur la semaine en cours :</p>
+                                <p>Lundi : 10h-17h <br>Mardi : 10h-14h 16h-18h <br>Mercredi : 9h-14h 16h-17h
+                                    <br>Jeudi : 10h-18h <br>Vendredi : 10h-12h 15h-18h</p>
+                                <p>Attention : Indisponible du 19/12 au 26/12 !</p>
+                                <a href="#" class ="modal_close">&times;</a>
+                            </div>
+                        </div>
+                    <img src="./images/Agent1.jpg" width="150" height="200"/>
+                </div>
+            </li>
+            <li class="carousel-item">
+                <div class="card">
+                    <a href="#demo">Victor Tanier</a>
+                        <div id="demo" class="modal">
+                            <div class="modal_content">
+                                <p class = "titre">Victor Tanier</p>
+                                
+                                <p>Ses disponibilités sur la semaine en cours :</p>
+                                <p>Lundi : 10h-17h <br>Mardi : 10h-14h <br>
+                                <p>Attention : Indisponible du 14/12 au 26/12 !</p>
+                                <a href="#" class ="modal_close">&times;</a>
+                            </div>
+                        </div>
+                    <img src="./images/Agent2.jpg" width="150" height="200" />
+                </div>
+            </li>
+            <li class="carousel-item">
+                <div class="card">
+                    <a href="#demo">Cassandre Leroux</a>
+                        <div id="demo" class="modal">
+                            <div class="modal_content">
+                                <p class = "titre">Cassandre Leroux</p>
+                                
+                                <p>Ses disponibilités sur la semaine en cours :</p>
+                                <p>Lundi : 10h-17h <br>Mardi : 10h-14h 16h-18h <br>Mercredi : 9h-14h 16h-17h
+                                    <br>Jeudi : indisponible <br>Vendredi : 10h-12h 15h-18h</p>
+                                <a href="#" class ="modal_close">&times;</a>
+                            </div>
+                        </div>
+                    <img src="./images/Agent3.jpg" width="150" height="200"/>
+                </div>
+            </li>
+            <li class="carousel-item">
+                <div class="card">
+                    <a href="#demo">Stephane Plaza</a>
+                        <div id="demo" class="modal">
+                            <div class="modal_content">
+                                <p class = "titre">Stephane Plaza</p>
+                                
+                                <p>Ses disponibilités sur la semaine en cours :</p>
+                                <p>Lundi : 10h-17h <br>Mardi : 10h-14h 16h-18h <br>Mercredi : 9h-14h 16h-17h
+                                    <br>Jeudi : 10h-18h <br>Vendredi : 10h-12h 15h-18h</p>
+                                <p>Attention : Indisponible du 22/12 au 03/01 !</p>
+                                <a href="#" class ="modal_close">&times;</a>
+                            </div>
+                        </div>
+                    <img src="./images/Agent4.jpg" width="150" height="200"/>
+                </div>
+            </li>
+            <li class="carousel-item">
+                <div class="card">
+                    <a href="#demo">Sophie Deneux</a>
+                        <div id="demo" class="modal">
+                            <div class="modal_content">
+                                <p class = "titre">Sophie Deneux</p>
+                                
+                                <p>Ses disponibilités sur la semaine en cours :</p>
+                                <p>Lundi : 10h-17h <br>Mardi : 10h-14h 16h-18h <br>Mercredi : Indisponible
+                                    <br>Jeudi : 10h-18h <br>Vendredi : 10h-12h 15h-18h</p>
+                                <a href="#" class ="modal_close">&times;</a>
+                            </div>
+                        </div>
+                    <img src="./images/Agent5.jpg" width="150" height="200"/>
+                </div>
+            </li>
+        </ul>
+</body>
