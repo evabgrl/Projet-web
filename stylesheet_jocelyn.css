@@ -1,0 +1,104 @@
+
+.global_djo{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding-bottom: 20px;
+    width: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: aliceblue;
+}
+
+.positionnement_djo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/paris.png); 
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.padding_djo{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.bouton_djo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: beige ;
+}
+
+
+/*                                                  */
+
+body{
+    margin: 0px;
+    margin-top: 0;
+}
+.arriere-plan_djo{
+    background-image: url(img/chambery.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.autour_formualaire{
+    position: relative;
+    width: fit-content;
+    background-size: cover;
+    margin-left: 50px;
+
+
+}
+
+.formualaire2{
+    padding: 20px 20px 20px 20px;
+    display: block;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding-left:40px;
+    
+}
+
+.bouton_djo2{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    border-radius: 10px;    
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.entre-form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input{
+    border-radius: 3px;
+}
+
+button{
+    background-color: lightseagreen;
+    border: 0.1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1{
+    margin-top: 15px;
+}
