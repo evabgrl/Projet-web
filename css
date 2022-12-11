@@ -124,8 +124,9 @@ footer{
 }
 
 .droite{
-    text-align: right;
-    color : blue
+    text-align: center;
+    color : blue;
+    font-size: x-large;
 }
 
 
@@ -147,3 +148,78 @@ input {
     background-color: #1c87c9;
     color: #ffffff;
 }
+
+
+.modal{
+    visibility : hidden;
+    opacity: 0;
+    position : absolute;
+    top : 0;
+    bottom : 0;
+    left : 0;
+    right : 0;
+    background: rgba(77, 77, 77, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal:target{
+    visibility : visible;
+    opacity :1;
+}
+
+.modal_content{
+    background-color: #ffffff;
+    padding : 1.5em 2em;
+    width: 500px;
+    max-width: 90%;
+    border-radius : 4px;
+    position : relative;
+
+}
+
+.modal_close{
+    position : absolute;
+    right : 15px;
+    top : 15px;
+    color : grey;
+    text-decoration : none;
+}
+
+.compte{
+    background-color:rgb(218, 218, 243);
+}
+
+input{
+    width:100%;
+
+    display : block;
+    padding:10px;
+    box-sizing: border-box;
+    background:rgb(130, 166, 245);
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2}
+
+
+
+.submit{
+    float:center;
+    width: 100%;
+    padding:10px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border: solid #0b0bcd;
+    background-color:#0b0bcd ;
+    color:white;
+    cursor:pointer;
+    transition:all .3s}
+
+
+
+
